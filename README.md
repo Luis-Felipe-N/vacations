@@ -23,8 +23,8 @@ This project was developed using the following technologies:
 Clone the project and access the folder.
 
 ```bash
-$ https://github.com/Luis-Felipe-N/blog.git
-$ cd blog
+$ https://github.com/Luis-Felipe-N/vacations.git
+$ cd vacations
 ```
 
 
