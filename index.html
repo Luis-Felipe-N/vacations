@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/input.css">
+
+    <link rel="shortcut icon" href="./files/cover.jpg" type="image/x-icon">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>VACATIONS :: Music</title>
+</head>
+<body>
+    <header class="header">
+        <h1>
+            <h1>Vacations</h1>
+        </h1>
+    </header>
+    <div class="player">
+        <div class="image">
+            <img id="imageCover" alt="Imagem do album">
+        </div>
+        <div class="container">
+            <div class="info">
+                <h2 class="title"></h2>
+                <p class="artist"></p>
+            </div>
+            <div class="audio"> 
+                <!-- <audio controls id="audio"></audio> -->
+                <div class="slide">
+                    <input id="slideAudio" min="0"  class="slideAudio" type="range">
+                   <div class="duration">
+                        <div id="currentTimeAudio" class="current-duration">00:00</div>
+                        <div id="durationAudio" class="current-duration">00:00</div>
+                   </div>
+                </div>
+                <div class="controls">
+                    <button>
+                        <img src="./files/preview.svg" alt="Começar música">
+                    </button>
+                    <button id="play-pause" class="play">
+                        <img src="./files/play.svg" alt="Começar música">
+                    </button>
+                    <button id="btnNext">
+                        <img src="./files/next.svg" alt="Começar música">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="data.js"></script>
+    <script src="player.js"></script> -->
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
