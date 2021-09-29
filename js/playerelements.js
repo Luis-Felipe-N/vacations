@@ -10,6 +10,7 @@ export default {
         this.durationAudioElem = document.querySelector('#durationAudio')
         this.currentTimeAudioElem = document.querySelector('#currentTimeAudio')
         this.btnNext = document.querySelector('#btnNext')
+        this.btnBack = document.querySelector('#btnBack')
         this.imageCover = document.querySelector('#imageCover')
     },
     createAudioElement(audio) {
@@ -21,6 +22,7 @@ export default {
     action() {
         this.btnPlay.onclick = () => this.togglePlayPause()
         this.btnNext.onclick = () => this.next()
+        this.btnBack.onclick = () => this.back()
         
 
         this.slideAudio.max = this.audio.duration

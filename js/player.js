@@ -17,6 +17,12 @@ export default {
         if ( this.currentPlaying === this.audiosData.length) this.restart()
         this.update()
     },
+    back() {
+        this.currentPlaying--
+        this.reset()
+        if ( this.currentPlaying < 0 ) this.restart()
+        this.update()
+    },
     restart() {
         this.currentPlaying = 0
         this.update()

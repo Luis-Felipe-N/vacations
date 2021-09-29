@@ -5,7 +5,7 @@
 
 
 <h1 align="center">
-    <img alt="Blog - Thumb" title="Letmeask" src="files/exaple.png" />
+    <img alt="vacations" title="vacaions" src="files/exaple.png" />
 </h1>
 
 
